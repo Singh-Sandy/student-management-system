@@ -4,9 +4,7 @@
 </head>
 <body>
 	<div class="container">
-		Welcome to Student management system! 
-		<br>
-		${name} 
+		Welcome to Student management system! <br> ${name}
 		<hr>
 		<!--  <div>${name}</div> -->
 		<a href="list-todos">Manage</a> your todos

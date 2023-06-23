@@ -6,6 +6,7 @@
 Welcome to this page!
 	<div class="container">
 		Welcome to Student management system!
+		<div>${name}</div>
 		<div>Your Todos are: ${todos} </div>
 	</div>
 </body>

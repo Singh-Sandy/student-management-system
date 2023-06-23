@@ -22,4 +22,9 @@ private static List<Todo> todos = new ArrayList<>();
 		return todos;
 	}
 	
+	public void addTodo(String username, String description, LocalDate targetDate, boolean done) {
+		Todo todo = new Todo(++todosCount,username,description,targetDate,done);
+		todos.add(todo);
+	}
+	
 }
